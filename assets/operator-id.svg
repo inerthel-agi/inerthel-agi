@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title description">
-  <title id="title">stealthsrc operator ID</title>
-  <desc id="description">Neo-brutalist operator card for stealthsrc with an abstract Stealthy signal mark and personal status panels.</desc>
+  <title id="title">inerthel-agi operator ID</title>
+  <desc id="description">Neo-brutalist operator card for inerthel-agi with an abstract Stealthy signal mark and personal status panels.</desc>
   <defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2.4" fill="#111111" opacity=".15" /></pattern></defs>
   <style>.display{font-family:Impact,Haettenschweiler,"Arial Black","DejaVu Sans Condensed",sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.outline{stroke:#111;stroke-width:6;stroke-linejoin:miter}.label{font-size:17px;font-weight:900;letter-spacing:1px}.value{font-size:21px;font-weight:900}</style>
   <rect width="900" height="430" fill="#FFF7E8"/><rect width="900" height="430" fill="url(#dots)"/><rect x="27" y="27" width="852" height="382" fill="#111"/><rect x="16" y="16" width="852" height="382" fill="#FFF7E8" class="outline"/>
@@ -12,7 +12,7 @@
     <rect x="65" y="315" width="214" height="33" fill="#FFD84D" class="outline"/><text x="82" y="339" class="mono label">STEALTHY SIGNAL</text>
   </g>
   <rect x="338" y="94" width="182" height="36" fill="#5BE7FF" class="outline"/><text x="354" y="119" class="mono label" fill="#111">QUIET TOOLMAKER</text>
-  <text x="346" y="199" class="display" font-size="55" letter-spacing="-1" fill="#FF6B6B">stealthsrc</text><text x="338" y="191" class="display" font-size="55" letter-spacing="-1" fill="#111">stealthsrc</text><text x="342" y="223" class="mono label" fill="#111">@stealthsrc // HUMAN IN THE LOOP</text>
-  <g class="mono"><rect x="338" y="247" width="242" height="62" fill="#FFD84D" class="outline"/><text x="353" y="272" class="label">BASE</text><text x="353" y="296" class="value">LOCALHOST</text><rect x="596" y="247" width="246" height="62" fill="#FF6B6B" class="outline"/><text x="611" y="272" class="label">MODE</text><text x="611" y="296" class="value">LOCAL-FIRST</text></g>
+  <text x="346" y="199" class="display" font-size="55" letter-spacing="-1" fill="#FF6B6B">inerthel-agi</text><text x="338" y="191" class="display" font-size="55" letter-spacing="-1" fill="#111">inerthel-agi</text><text x="342" y="223" class="mono label" fill="#111">@inerthel-agi // HUMAN IN THE LOOP</text>
+  <g class="mono"><rect x="338" y="247" width="242" height="62" fill="#FFD84D" class="outline"/><text x="353" y="272" class="label">BASE</text><text x="353" y="296" class="value">PARIS / LOCALHOST</text><rect x="596" y="247" width="246" height="62" fill="#FF6B6B" class="outline"/><text x="611" y="272" class="label">MODE</text><text x="611" y="296" class="value">LOCAL-FIRST</text></g>
   <g class="mono"><rect x="338" y="325" width="242" height="53" fill="#5BE7FF" class="outline"/><text x="353" y="348" class="label">FOCUS</text><text x="353" y="369" class="value">AI × BUSINESS</text><rect x="596" y="325" width="246" height="53" fill="#A8FF60" class="outline"/><text x="611" y="348" class="label">STATUS</text><text x="611" y="369" class="value">CAFFEINE-BOUND</text></g>
 </svg>

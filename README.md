@@ -28,9 +28,9 @@ I build local-first automation workflows, MCP servers, agent tooling, observabil
 
 | Project | What it does | Stack |
 | --- | --- | --- |
-| [tokenscope](https://github.com/stealthsrc/tokenscope) | Local usage, cost, quota, and budget tracking for Claude Code and Codex. | `Python` `React` `FastAPI` |
-| [powerbi-mcp-local](https://github.com/stealthsrc/powerbi-mcp-local) | MCP access to Power BI Desktop, Excel, Power Query, and semantic models. | `Python` `MCP` `Power BI` |
-| [claude-rpc](https://github.com/stealthsrc/claude-rpc) | Native Discord Rich Presence for Claude Code and Desktop. | `Rust` `Tauri` `RPC` |
+| [tokenscope](https://github.com/inerthel-agi/tokenscope) | Local usage, cost, quota, and budget tracking for Claude Code and Codex. | `Python` `React` `FastAPI` |
+| [powerbi-mcp-local](https://github.com/inerthel-agi/powerbi-mcp-local) | MCP access to Power BI Desktop, Excel, Power Query, and semantic models. | `Python` `MCP` `Power BI` |
+| [claude-rpc](https://github.com/inerthel-agi/claude-rpc) | Native Discord Rich Presence for Claude Code and Desktop. | `Rust` `Tauri` `RPC` |
 
 ## Stack
 
@@ -42,7 +42,7 @@ I build local-first automation workflows, MCP servers, agent tooling, observabil
 
 ## Links
 
-- GitHub: [Stealthy](https://github.com/stealthsrc)
+- GitHub: [Stealthy](https://github.com/inerthel-agi)
 - Website: [stealthylabs.eu](https://stealthylabs.eu)
 - Discord: [StealthyLabs](https://discord.com/users/0)
 - Twitch: [stealthylabs](https://twitch.tv/stealthylabs)
