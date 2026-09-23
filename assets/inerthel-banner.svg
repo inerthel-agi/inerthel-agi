@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Inerthel</title>
+  <desc id="description">Inerthel profile banner: local software, automation and AI tools.</desc>
+  <rect width="1200" height="320" fill="#151514"/>
+  <path d="M48 49h1104M48 270h1104" stroke="#54534f" stroke-width="1"/>
+  <g fill="#a8a69e" font-family="'DM Mono',Consolas,monospace" font-size="17" letter-spacing="2">
+    <text x="48" y="35">IN / GITHUB</text>
+    <text x="934" y="35">INERTHEL.COM</text>
+    <text x="48" y="299">LOCAL SOFTWARE</text>
+    <text x="394" y="299">AUTOMATION</text>
+    <text x="735" y="299">AI TOOLS</text>
+  </g>
+  <text x="43" y="180" fill="#f3f1e9" font-family="'Instrument Sans','Segoe UI',sans-serif" font-size="110" font-weight="700" letter-spacing="-7">Inerthel</text>
+  <text x="49" y="222" fill="#bbb9b1" font-family="'DM Mono',Consolas,monospace" font-size="21" letter-spacing="1">BUILDING TOOLS THAT STAY CLOSE TO THE USER.</text>
+  <g transform="translate(928 83) scale(.32)" fill="#f3f1e9">
+    <path d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z"/>
+  </g>
+  <path d="M903 83h226v158H903z" fill="none" stroke="#54534f" stroke-width="1"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img" aria-labelledby="title description">
+  <title id="title">Inerthel</title>
+  <desc id="description">Inerthel profile banner: local software, automation and AI tools.</desc>
+  <rect width="620" height="420" fill="#151514"/>
+  <path d="M30 55h560M30 359h560" stroke="#54534f" stroke-width="1"/>
+  <g fill="#a8a69e" font-family="'DM Mono',Consolas,monospace" font-size="18" letter-spacing="2">
+    <text x="30" y="39">IN / GITHUB</text>
+    <text x="30" y="391">INERTHEL.COM</text>
+  </g>
+  <g transform="translate(34 90) scale(.17)" fill="#f3f1e9">
+    <path d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z"/>
+  </g>
+  <text x="27" y="255" fill="#f3f1e9" font-family="'Instrument Sans','Segoe UI',sans-serif" font-size="91" font-weight="700" letter-spacing="-6">Inerthel</text>
+  <text x="32" y="302" fill="#bbb9b1" font-family="'DM Mono',Consolas,monospace" font-size="22">LOCAL SOFTWARE · AUTOMATION</text>
+  <text x="32" y="334" fill="#bbb9b1" font-family="'DM Mono',Consolas,monospace" font-size="22">AI TOOLS</text>
+</svg>
