@@ -13,7 +13,7 @@
 
 <br />
 
-I build local software, automation tools, and applications for AI workflows. My public projects include desktop apps, MCP integrations, and developer tools.
+I build local software, automation tools, and applications for AI workflows. My public projects include desktop apps, MCP integrations, and developer tools. I write the specs; Claude Code and Codex write the code.
 
 <br />
 
@@ -32,7 +32,9 @@ I build local software, automation tools, and applications for AI workflows. My 
   </tr>
 </table>
 
-**Stack:** `Python` · `C#` · `JavaScript` · `PowerShell` · `MCP` · `Windows`
+<img src="assets/stack.svg" alt="How I build: prompt and spec, then Claude Code and Codex, then MCP tools and skills, then Windows apps" width="100%" />
+
+**AI stack:** `Claude Code` · `Codex` · `MCP` · `Agent skills`
 
 <br />
 

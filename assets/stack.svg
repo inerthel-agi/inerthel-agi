@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 150" role="img" aria-labelledby="t d">
+  <title id="t">AI workflow</title>
+  <desc id="d">Workflow: an idea goes to Claude Code and Codex, which use MCP tools to ship Windows apps, widgets and automation.</desc>
+  <style>
+    .mono { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .in { animation: in .7s ease-out both; }
+    .n1 { animation-delay: .1s; } .n2 { animation-delay: .4s; } .n3 { animation-delay: .7s; } .n4 { animation-delay: 1s; }
+    .flow { stroke-dasharray: 4 8; animation: flow 1.2s linear infinite; }
+    .pkt { animation: pkt 3.2s cubic-bezier(.5,0,.5,1) infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
+    @keyframes pkt { from { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } to { transform: translateX(612px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .pkt { display: none; } }
+  </style>
+  <rect x=".5" y=".5" width="819" height="149" rx="10" fill="#000" stroke="#1f1f1f"/>
+  <text class="mono" x="22" y="30" fill="#6b6b6b" font-size="12" letter-spacing="2">HOW I BUILD</text>
+
+  <path class="flow" d="M170 88h56M396 88h56M594 88h56" stroke="#37f5b0" stroke-opacity=".5" stroke-width="2"/>
+  <circle class="pkt" cx="104" cy="88" r="4" fill="#37f5b0"/>
+
+  <g class="in n1">
+    <rect x="22" y="58" width="148" height="60" rx="8" fill="#050505" stroke="#262626"/>
+    <text class="mono" x="40" y="84" fill="#37f5b0" font-size="12">01 · idea</text>
+    <text class="sans" x="40" y="104" fill="#f5f5f5" font-size="15" font-weight="600">Prompt &amp; spec</text>
+  </g>
+  <g class="in n2">
+    <rect x="226" y="50" width="170" height="76" rx="8" fill="#050505" stroke="#37f5b0" stroke-opacity=".6"/>
+    <text class="mono" x="244" y="76" fill="#37f5b0" font-size="12">02 · agents</text>
+    <text class="sans" x="244" y="96" fill="#f5f5f5" font-size="15" font-weight="600">Claude Code</text>
+    <text class="sans" x="244" y="115" fill="#f5f5f5" font-size="15" font-weight="600">Codex</text>
+  </g>
+  <g class="in n3">
+    <rect x="452" y="58" width="142" height="60" rx="8" fill="#050505" stroke="#262626"/>
+    <text class="mono" x="470" y="84" fill="#37f5b0" font-size="12">03 · tools</text>
+    <text class="sans" x="470" y="104" fill="#f5f5f5" font-size="15" font-weight="600">MCP · Skills</text>
+  </g>
+  <g class="in n4">
+    <rect x="650" y="58" width="148" height="60" rx="8" fill="#050505" stroke="#262626"/>
+    <text class="mono" x="668" y="84" fill="#37f5b0" font-size="12">04 · ship</text>
+    <text class="sans" x="668" y="104" fill="#f5f5f5" font-size="15" font-weight="600">Windows apps</text>
+  </g>
+</svg>
