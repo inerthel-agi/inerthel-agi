@@ -1,36 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440" role="img" aria-labelledby="title description">
   <title id="title">Inerthel</title>
-  <desc id="description">Inerthel profile banner: local software, automation and AI tools.</desc>
+  <desc id="description">Inerthel profile banner: local software, automation and AI tools, built with Claude Code and Codex.</desc>
   <style>
     .mono { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, monospace; }
     .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-    .up { animation: up .9s cubic-bezier(.2,.7,.2,1) .2s both; }
-    .cursor { animation: blink 1s steps(1) infinite; }
-    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 36px 34px; }
-    .draw { stroke-dasharray: 1800; animation: draw 2.2s ease-out .3s both; }
-    .fill { animation: fade 1s ease-out 2s both; }
+    .up { animation: up 1s cubic-bezier(.2,.7,.2,1) .2s both; }
+    .aurora { animation: drift 16s ease-in-out infinite alternate; }
+    .spin { animation: spin 30s linear infinite; transform-origin: 90px 150px; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 36px 40px; }
+    .draw { stroke-dasharray: 1800; animation: draw 2.4s ease-out .3s both; }
+    .fill { animation: fade 1s ease-out 2.2s both; }
+    .w { opacity: 0; animation: word 9s ease-in-out infinite; }
+    .w2 { animation-delay: 3s; } .w3 { animation-delay: 6s; }
     @keyframes up { from { opacity: 0; transform: translateY(14px); } }
     @keyframes fade { from { opacity: 0; } }
-    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes drift { to { transform: translate(90px, -20px); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
     @keyframes pulse { 50% { opacity: .25; transform: scale(.6); } }
     @keyframes draw { from { stroke-dashoffset: 1800; } }
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    @keyframes word { 0% { opacity: 0; transform: translateY(10px); } 5%, 28% { opacity: 1; transform: none; } 33%, 100% { opacity: 0; transform: translateY(-10px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .w1 { opacity: 1; } }
   </style>
-  <rect width="620" height="420" rx="14" fill="#000"/>
-  <path d="M30 58h560M30 362h560" stroke="#1c1c1c"/>
-  <circle class="pulse" cx="36" cy="34" r="5" fill="#37f5b0"/>
-  <g class="mono" fill="#6b6b6b" font-size="15" letter-spacing="2.5">
-    <text x="52" y="39">ONLINE · IN / GITHUB</text>
-    <text x="30" y="394">INERTHEL.COM</text>
-  </g>
-  <g transform="translate(34 88) scale(.17)">
-    <path class="draw" d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z" fill="none" stroke="#37f5b0" stroke-width="8"/>
-    <path class="fill" d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z" fill="#f5f5f5"/>
-  </g>
-  <text class="sans up" x="27" y="252" fill="#f5f5f5" font-size="91" font-weight="700" letter-spacing="-4">Inerthel</text>
-  <g class="mono" font-size="19">
-    <text x="32" y="302" fill="#bdbdbd"><tspan fill="#37f5b0">&gt;</tspan> local software · automation</text>
-    <text x="32" y="334" fill="#bdbdbd"><tspan fill="#37f5b0">&gt;</tspan> ai tools</text>
-    <rect class="cursor" x="148" y="318" width="10" height="19" fill="#37f5b0"/>
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#0c0c0c"/></pattern>
+    <clipPath id="frame"><rect width="620" height="440" rx="16"/></clipPath>
+    <path id="logo" d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z"/>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="620" height="440" fill="#000"/>
+    <rect width="620" height="440" fill="url(#grid)"/>
+    <ellipse class="aurora" cx="200" cy="480" rx="260" ry="80" fill="#0f8f63" opacity=".5" filter="url(#blur)"/>
+
+    <circle class="pulse" cx="36" cy="40" r="5" fill="#37f5b0"/>
+    <text class="mono" x="52" y="45" fill="#7a7a7a" font-size="14" letter-spacing="2.5">INERTHEL / GITHUB</text>
+    <rect x="30" y="66" width="560" height="1" fill="#1c1c1c"/>
+
+    <g class="spin" fill="none" stroke="#262626">
+      <circle cx="90" cy="150" r="62" stroke-dasharray="2 8"/>
+      <circle cx="152" cy="150" r="3.5" fill="#37f5b0" stroke="none"/>
+    </g>
+    <g transform="translate(59 123) scale(.113)">
+      <use class="draw" href="#logo" fill="none" stroke="#37f5b0" stroke-width="12"/>
+      <use class="fill" href="#logo" fill="#f5f5f5"/>
+    </g>
+
+    <text class="sans up" x="27" y="300" fill="#f5f5f5" font-size="96" font-weight="700" letter-spacing="-4">Inerthel</text>
+    <g class="mono" font-size="20">
+      <text x="32" y="346" fill="#37f5b0">&gt;</text>
+      <text x="56" y="346" fill="#8a8a8a">now shipping</text>
+      <g fill="#f5f5f5">
+        <text class="w w1" x="56" y="376">local software</text>
+        <text class="w w2" x="56" y="376">automation tools</text>
+        <text class="w w3" x="56" y="376">AI workflows</text>
+      </g>
+    </g>
+    <rect x="30" y="398" width="560" height="1" fill="#141414"/>
+    <text class="mono" x="30" y="424" fill="#4a4a4a" font-size="12" letter-spacing="2">CLAUDE CODE · CODEX · MCP</text>
   </g>
 </svg>

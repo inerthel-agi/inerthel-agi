@@ -1,70 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title description">
   <title id="title">Inerthel</title>
-  <desc id="description">Inerthel profile banner: local software, automation and AI tools.</desc>
+  <desc id="description">Inerthel profile banner: local software, automation and AI tools, built with Claude Code and Codex.</desc>
   <style>
     .mono { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, monospace; }
     .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-    .up { animation: up .9s cubic-bezier(.2,.7,.2,1) both; }
-    .d1 { animation-delay: .15s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: 2.6s; }
-    .d4 { animation-delay: 2.8s; } .d5 { animation-delay: 3s; }
-    .type { animation: type 2s steps(42) .9s both; }
-    .cursor { animation: blink 1s steps(1) infinite; }
-    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 56px 34px; }
-    .draw { stroke-dasharray: 1800; animation: draw 2.2s ease-out .3s both; }
-    .fill { animation: fade 1s ease-out 2s both; }
-    .scan { animation: scan 7s linear infinite; }
-    @keyframes up { from { opacity: 0; transform: translateY(14px); } }
+    .up { animation: up 1s cubic-bezier(.2,.7,.2,1) both; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; } .d4 { animation-delay: .85s; }
+    .aurora1 { animation: drift1 16s ease-in-out infinite alternate; }
+    .aurora2 { animation: drift2 20s ease-in-out infinite alternate; }
+    .shine { animation: shine 6s ease-in-out 1.2s infinite; }
+    .spin { animation: spin 40s linear infinite; transform-origin: 960px 190px; }
+    .spin-rev { animation: spin 26s linear infinite reverse; transform-origin: 960px 190px; }
+    .glow { animation: glow 4s ease-in-out infinite; transform-origin: 960px 190px; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 56px 42px; }
+    .draw { stroke-dasharray: 1800; animation: draw 2.4s ease-out .4s both; }
+    .fill { animation: fade 1s ease-out 2.2s both; }
+    .w { opacity: 0; animation: word 9s ease-in-out infinite; }
+    .w2 { animation-delay: 3s; } .w3 { animation-delay: 6s; }
+    @keyframes up { from { opacity: 0; transform: translateY(16px); } }
     @keyframes fade { from { opacity: 0; } }
-    @keyframes type { from { transform: translateX(0); } }
-    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes drift1 { to { transform: translate(120px, 30px); } }
+    @keyframes drift2 { to { transform: translate(-140px, -20px); } }
+    @keyframes shine { from { transform: translateX(-200px); } 45%, to { transform: translateX(700px); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes glow { 50% { opacity: .55; transform: scale(.92); } }
     @keyframes pulse { 50% { opacity: .25; transform: scale(.6); } }
     @keyframes draw { from { stroke-dashoffset: 1800; } }
-    @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(380px); } }
-    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .scan { display: none; } }
+    @keyframes word { 0% { opacity: 0; transform: translateY(12px); } 5%, 28% { opacity: 1; transform: none; } 33%, 100% { opacity: 0; transform: translateY(-12px); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .w1 { opacity: 1; } .shine-band { display: none; }
+    }
   </style>
   <defs>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#141414"/>
-    </pattern>
-    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#37f5b0" stop-opacity="0"/>
-      <stop offset="1" stop-color="#37f5b0" stop-opacity=".07"/>
-    </linearGradient>
-    <clipPath id="typed"><rect class="type" x="-474" y="200" width="548" height="40" transform="translate(548 0)"/></clipPath>
-    <clipPath id="frame"><rect width="1200" height="340" rx="14"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <radialGradient id="halo"><stop offset="0" stop-color="#37f5b0" stop-opacity=".22"/><stop offset="1" stop-color="#37f5b0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="band" x1="0" x2="1"><stop offset="0" stop-color="#37f5b0" stop-opacity="0"/><stop offset=".5" stop-color="#b9ffe4"/><stop offset="1" stop-color="#37f5b0" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rule" x1="0" x2="1"><stop offset="0" stop-color="#37f5b0" stop-opacity=".6"/><stop offset=".6" stop-color="#1c1c1c"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#0c0c0c"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="380" rx="16"/></clipPath>
+    <clipPath id="word"><text x="44" y="200" font-size="124" font-weight="700" letter-spacing="-5" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">Inerthel</text></clipPath>
+    <path id="logo" d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z"/>
   </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="#000"/>
-    <rect width="1200" height="340" fill="url(#dots)"/>
-    <rect class="scan" width="1200" height="40" fill="url(#beam)"/>
 
-    <path d="M48 58h1104M48 282h1104" stroke="#1c1c1c"/>
-    <circle class="pulse" cx="56" cy="34" r="5" fill="#37f5b0"/>
-    <g class="mono" fill="#6b6b6b" font-size="15" letter-spacing="2.5">
-      <text x="72" y="39">ONLINE · IN / GITHUB</text>
-      <text x="1152" y="39" text-anchor="end">INERTHEL.COM</text>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="#000"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <g filter="url(#blur)" opacity=".5">
+      <ellipse class="aurora1" cx="260" cy="420" rx="320" ry="90" fill="#0f8f63"/>
+      <ellipse class="aurora2" cx="980" cy="-40" rx="300" ry="80" fill="#0b4f6e"/>
     </g>
 
-    <text class="sans up d1" x="44" y="178" fill="#f5f5f5" font-size="112" font-weight="700" letter-spacing="-5">Inerthel</text>
+    <circle class="pulse" cx="56" cy="42" r="5" fill="#37f5b0"/>
+    <g class="mono" font-size="14" letter-spacing="2.5">
+      <text x="72" y="47" fill="#7a7a7a">INERTHEL / GITHUB</text>
+      <text x="1152" y="47" fill="#7a7a7a" text-anchor="end">INERTHEL.COM</text>
+    </g>
+    <rect x="48" y="70" width="1104" height="1" fill="url(#rule)"/>
 
-    <g class="mono" font-size="20" letter-spacing="1">
-      <text x="50" y="226" fill="#37f5b0">&gt;</text>
-      <text x="74" y="226" fill="#bdbdbd" clip-path="url(#typed)">building tools that stay close to the user</text>
-      <g class="type" transform="translate(548 0)">
-        <rect class="cursor" x="76" y="210" width="11" height="20" fill="#37f5b0"/>
+    <g class="up d1">
+      <text class="sans" x="44" y="200" fill="#f5f5f5" font-size="124" font-weight="700" letter-spacing="-5">Inerthel</text>
+      <g clip-path="url(#word)"><rect class="shine shine-band" x="0" y="90" width="160" height="130" fill="url(#band)" opacity=".85"/></g>
+    </g>
+
+    <g class="mono up d2" font-size="22">
+      <text x="50" y="250" fill="#37f5b0">&gt;</text>
+      <text x="76" y="250" fill="#8a8a8a">now shipping</text>
+      <g fill="#f5f5f5">
+        <text class="w w1" x="246" y="250">local software</text>
+        <text class="w w2" x="246" y="250">automation tools</text>
+        <text class="w w3" x="246" y="250">AI workflows</text>
       </g>
     </g>
 
-    <g class="mono" fill="#8a8a8a" font-size="15" letter-spacing="2.5">
-      <text class="up d3" x="48" y="314">LOCAL SOFTWARE</text>
-      <text class="up d4" x="394" y="314">AUTOMATION</text>
-      <text class="up d5" x="735" y="314">AI TOOLS</text>
+    <g class="mono up d3" font-size="13" letter-spacing="1.5">
+      <rect x="48" y="290" width="138" height="30" rx="15" fill="#070707" stroke="#262626"/>
+      <text x="117" y="310" fill="#cfcfcf" text-anchor="middle">CLAUDE CODE</text>
+      <rect x="196" y="290" width="92" height="30" rx="15" fill="#070707" stroke="#262626"/>
+      <text x="242" y="310" fill="#cfcfcf" text-anchor="middle">CODEX</text>
+      <rect x="298" y="290" width="72" height="30" rx="15" fill="#070707" stroke="#262626"/>
+      <text x="334" y="310" fill="#cfcfcf" text-anchor="middle">MCP</text>
+      <rect x="380" y="290" width="110" height="30" rx="15" fill="#070707" stroke="#262626"/>
+      <text x="435" y="310" fill="#cfcfcf" text-anchor="middle">WINDOWS</text>
     </g>
 
-    <rect x="920" y="88" width="232" height="164" rx="10" fill="#050505" stroke="#1c1c1c"/>
-    <g transform="translate(947 104) scale(.27)">
-      <path class="draw" d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z" fill="none" stroke="#37f5b0" stroke-width="6"/>
-      <path class="fill" d="M0 0h121v491H0zM163 0h104l284 383v108h-66L163 67zM428 0h123v491H428zM165 123l126 166v202H165z" fill="#f5f5f5"/>
+    <g class="up d4">
+      <circle class="glow" cx="960" cy="190" r="170" fill="url(#halo)"/>
+      <g class="spin" fill="none" stroke="#1f1f1f">
+        <circle cx="960" cy="190" r="140" stroke-dasharray="2 10"/>
+        <circle cx="1100" cy="190" r="4" fill="#37f5b0" stroke="none"/>
+      </g>
+      <g class="spin-rev" fill="none" stroke="#262626">
+        <circle cx="960" cy="190" r="110"/>
+        <circle cx="960" cy="80" r="3" fill="#f5f5f5" stroke="none"/>
+        <circle cx="960" cy="300" r="3" fill="#37f5b0" stroke="none"/>
+      </g>
+      <g transform="translate(911.5 147) scale(.176)">
+        <use class="draw" href="#logo" fill="none" stroke="#37f5b0" stroke-width="10"/>
+        <use class="fill" href="#logo" fill="#f5f5f5"/>
+      </g>
     </g>
+
+    <rect x="48" y="346" width="1104" height="1" fill="#141414"/>
+    <text class="mono" x="1152" y="368" fill="#3d3d3d" font-size="11" letter-spacing="2" text-anchor="end">SPEC → AGENTS → TOOLS → SHIP</text>
   </g>
 </svg>
