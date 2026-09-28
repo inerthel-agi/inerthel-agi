@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" role="img" aria-labelledby="t d">
+  <title id="t">caveman-lang</title>
+  <desc id="d">Compact output rules and skills for Claude, ChatGPT and Gemini.</desc>
+  <style>
+    .mono { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .in { animation: in .8s ease-out 0.6s both; }
+    .sweep { animation: sweep 6s ease-in-out 0.6s infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } }
+    @keyframes sweep { from { transform: translateX(-160px); } 60%, to { transform: translateX(400px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .sweep { display: none; } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#37f5b0" stop-opacity="0"/><stop offset=".5" stop-color="#37f5b0"/><stop offset="1" stop-color="#37f5b0" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect x="1" y="1" width="398" height="138" rx="10"/></clipPath>
+  </defs>
+  <rect x=".5" y=".5" width="399" height="139" rx="10" fill="#000" stroke="#1f1f1f"/>
+  <g clip-path="url(#c)"><rect class="sweep" x="0" y="0" width="160" height="2" fill="url(#g)"/></g>
+  <g class="in">
+    <text class="mono" x="22" y="34" fill="#37f5b0" font-size="13">~/</text>
+    <text class="sans" x="44" y="35" fill="#f5f5f5" font-size="19" font-weight="600">caveman-lang</text>
+    <text class="sans" x="22" y="68" fill="#9a9a9a" font-size="14">Compact output rules and skills</text>
+    <text class="sans" x="22" y="88" fill="#9a9a9a" font-size="14">for Claude, ChatGPT and Gemini.</text>
+    <circle cx="28" cy="117" r="5" fill="#8a8a8a"/>
+    <text class="mono" x="40" y="121" fill="#6b6b6b" font-size="12">Markdown</text>
+  </g>
+</svg>
