@@ -40,10 +40,14 @@
       <text x="226.0" y="274.6" fill="#cfcfcf" text-anchor="middle">HTML</text>
       <rect x="274" y="254.6" width="66" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
       <text x="307.0" y="274.6" fill="#cfcfcf" text-anchor="middle">CSS</text>
-      <rect x="350" y="254.6" width="96" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
-      <text x="398.0" y="274.6" fill="#cfcfcf" text-anchor="middle">PYTHON</text>
-      <rect x="456" y="254.6" width="60" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
-      <text x="486.0" y="274.6" fill="#cfcfcf" text-anchor="middle">C#</text>
+      <rect x="350" y="254.6" width="130" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
+      <text x="415.0" y="274.6" fill="#cfcfcf" text-anchor="middle">TYPESCRIPT</text>
+      <rect x="490" y="254.6" width="96" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
+      <text x="538.0" y="274.6" fill="#cfcfcf" text-anchor="middle">PYTHON</text>
+      <rect x="596" y="254.6" width="60" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
+      <text x="626.0" y="274.6" fill="#cfcfcf" text-anchor="middle">C#</text>
+      <rect x="666" y="254.6" width="118" height="30" rx="15" fill="#000" stroke="#2a2a2a"/>
+      <text x="725.0" y="274.6" fill="#cfcfcf" text-anchor="middle">MARKDOWN</text>
     </g>
     <g class="up d4">
       <g class="spin" fill="none" stroke="#2a2a2a">
