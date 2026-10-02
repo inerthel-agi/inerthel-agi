@@ -44,6 +44,23 @@ As a beginner data analyst, I also build weird things in Power BI and Excel with
 
 **Data stack:** `Power BI` · `Excel` · `Power Query` · `DAX` · `SQL` · `Python`
 
+**Interests:** `PC hardware & setup` · `Anime & manga` · `Music: pop, K-pop`
+
+<details>
+<summary><b>My setup</b></summary>
+
+| Part | Model |
+| --- | --- |
+| CPU | AMD Ryzen 7 9800X3D |
+| GPU | GIGABYTE GeForce RTX 5070 Ti AERO OC 16G |
+| Motherboard | GIGABYTE B650E AORUS STEALTH ICE |
+| RAM | Kingston FURY Beast 64 GB (2 × 32 GB) DDR5-6400 MT/s CL32 |
+| PSU | ASUS ROG Strix 1000W Platinum White Edition |
+| Cooling | CORSAIR iCUE LINK TITAN 360 RX |
+| Fans | CORSAIR 12× iCUE LINK RX120 RGB 120 mm |
+
+</details>
+
 <br />
 
 <picture>
