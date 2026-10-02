@@ -17,6 +17,8 @@ I build local software, automation tools, and applications for AI workflows. My 
 
 I no longer type code by hand. I work through agent harnesses, Claude Code and Codex, to move fast. I use Claude Code heavily, mostly with Anthropic's Opus, Fable and Sonnet models. I write the specs; the agents write the code.
 
+As a beginner data analyst, I also build weird things in Power BI and Excel with custom graphical interfaces. With Claude Code, I have already turned an Excel workbook into a playable game. If an idea sounds a bit crazy, I still try it.
+
 <br />
 
 <table align="center">
@@ -37,6 +39,8 @@ I no longer type code by hand. I work through agent harnesses, Claude Code and C
 <img src="assets/stack.svg" alt="How I build: prompt and spec, then Claude Code and Codex, then MCP tools and skills, then Windows apps" width="100%" />
 
 **AI stack:** `Claude Code` · `Codex` · `Opus` · `Fable` · `Sonnet` · `MCP` · `Agent skills`
+
+**Data stack:** `Power BI` · `Excel` · `Power Query` · `DAX` · `SQL` · `Python`
 
 <br />
 
