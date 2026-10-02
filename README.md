@@ -7,7 +7,7 @@
 
 <br />
 
-<a href="https://inerthel.com">inerthel.com</a> · <a href="mailto:contact@inerthel.com">contact@inerthel.com</a> · <a href="https://x.com/inerthel">X</a> · <a href="https://youtube.com/@inerthel">YouTube</a> · <a href="https://www.tiktok.com/@inerthel">TikTok</a>
+<a href="https://inerthel.com">inerthel.com</a> · <a href="mailto:contact@inerthel.com">contact@inerthel.com</a> · <a href="https://x.com/inerthel">X</a> · <a href="https://youtube.com/@inerthel">YouTube</a> · <a href="https://www.twitch.tv/inerthel">Twitch</a> · <a href="https://www.tiktok.com/@inerthel">TikTok</a>
 
 </div>
 
