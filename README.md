@@ -44,7 +44,7 @@ As a beginner data analyst, I also build weird things in Power BI and Excel with
 
 **Data stack:** `Power BI` · `Excel` · `Power Query` · `DAX` · `SQL` · `Python`
 
-**Interests:** `PC hardware & setup` · `Anime & manga` · `Music: pop, K-pop`
+**Interests:** `PC hardware & setup` · `Anime & manga` · `Music: pop, K-pop` · `Video games: FPS, casual & competitive` · `Content creation on Twitch`
 
 <details>
 <summary><b>My setup</b></summary>
