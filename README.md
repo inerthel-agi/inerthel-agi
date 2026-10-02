@@ -19,6 +19,8 @@ I no longer type code by hand. I work through agent harnesses, Claude Code and C
 
 As a beginner data analyst, I also build weird things in Power BI and Excel with custom graphical interfaces. With Claude Code, I have already turned an Excel workbook into a playable game. If an idea sounds a bit crazy, I still try it.
 
+**Open to work:** I am looking for a 24-month work-study position (alternance) in Île-de-France, as a data analyst or in other data roles. Reach me at <a href="mailto:pro@chykizona.eu">pro@chykizona.eu</a> or <a href="mailto:contact@inerthel.com">contact@inerthel.com</a>.
+
 <br />
 
 <table align="center">
