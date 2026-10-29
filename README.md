@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/inerthel-banner-mobile.svg" />
-  <img src="assets/inerthel-banner.svg" alt="Inerthel: local software, automation and AI tools" width="100%" />
+  <source media="(max-width: 600px)" srcset="assets/inerthel-banner-mobile.svg?v=2" />
+  <img src="assets/inerthel-banner.svg?v=2" alt="Inerthel: local software, automation and AI tools" width="100%" />
 </picture>
 
 <br />
@@ -25,20 +25,20 @@ As a beginner data analyst, I also build weird things in Power BI and Excel with
 
 <table align="center">
   <tr>
-    <td><a href="https://github.com/inerthel-agi/powerbi-mcp-local"><img src="assets/cards/powerbi-mcp-local.svg" alt="powerbi-mcp-local: connects MCP clients to Power BI Desktop, Excel, Power Query and semantic models" width="420" /></a></td>
-    <td><a href="https://github.com/inerthel-agi/icue-edge-widgets"><img src="assets/cards/icue-edge-widgets.svg" alt="icue-edge-widgets: native widgets for Corsair iCUE displays" width="420" /></a></td>
+    <td><a href="https://github.com/inerthel-agi/powerbi-mcp-local"><img src="assets/cards/powerbi-mcp-local.svg?v=2" alt="powerbi-mcp-local: connects MCP clients to Power BI Desktop, Excel, Power Query and semantic models" width="420" /></a></td>
+    <td><a href="https://github.com/inerthel-agi/icue-edge-widgets"><img src="assets/cards/icue-edge-widgets.svg?v=2" alt="icue-edge-widgets: native widgets for Corsair iCUE displays" width="420" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/inerthel-agi/codex-whip"><img src="assets/cards/codex-whip.svg" alt="codex-whip: steers active Codex CLI and Desktop tasks from a Windows overlay" width="420" /></a></td>
-    <td><a href="https://github.com/inerthel-agi/CodecTone"><img src="assets/cards/CodecTone.svg" alt="CodecTone: converts, compresses and trims audio locally on Windows" width="420" /></a></td>
+    <td><a href="https://github.com/inerthel-agi/codex-whip"><img src="assets/cards/codex-whip.svg?v=2" alt="codex-whip: steers active Codex CLI and Desktop tasks from a Windows overlay" width="420" /></a></td>
+    <td><a href="https://github.com/inerthel-agi/CodecTone"><img src="assets/cards/CodecTone.svg?v=2" alt="CodecTone: converts, compresses and trims audio locally on Windows" width="420" /></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/inerthel-agi/caveman-lang"><img src="assets/cards/caveman-lang.svg" alt="caveman-lang: compact output rules and skills for AI assistants" width="420" /></a></td>
-    <td><a href="https://github.com/inerthel-agi?tab=repositories"><img src="assets/cards/more.svg" alt="All public repositories" width="420" /></a></td>
+    <td><a href="https://github.com/inerthel-agi/caveman-lang"><img src="assets/cards/caveman-lang.svg?v=2" alt="caveman-lang: compact output rules and skills for AI assistants" width="420" /></a></td>
+    <td><a href="https://github.com/inerthel-agi?tab=repositories"><img src="assets/cards/more.svg?v=2" alt="All public repositories" width="420" /></a></td>
   </tr>
 </table>
 
-<img src="assets/stack.svg" alt="How I build: prompt and spec, then Claude Code and Codex, then MCP tools and skills, then Windows apps" width="100%" />
+<img src="assets/stack.svg?v=2" alt="How I build: prompt and spec, then Claude Code and Codex, then MCP tools and skills, then Windows apps" width="100%" />
 
 **AI stack:** `Claude Code` · `Codex` · `Opus` · `Fable` · `Sonnet` · `MCP` · `Agent skills`
 
