@@ -10,7 +10,7 @@
   </style>
   <rect x=".5" y=".5" width="399" height="139" rx="10" fill="#000" stroke="#262626"/>
   <g class="in">
-    <text class="mono" x="22" y="34" fill="#6b6b6b" font-size="13">~/</text>
+    <text class="mono" x="22" y="34" fill="#FFD400" font-size="13">~/</text>
     <text class="sans" x="44" y="35" fill="#f2f2f2" font-size="19" font-weight="600">codex-whip</text>
     <text class="sans" x="22" y="68" fill="#9a9a9a" font-size="14">Steers active Codex CLI and Desktop</text>
     <text class="sans" x="22" y="88" fill="#9a9a9a" font-size="14">tasks from a Windows overlay.</text>

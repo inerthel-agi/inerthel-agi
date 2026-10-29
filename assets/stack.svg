@@ -17,7 +17,7 @@
   <text class="mono" x="22" y="30" fill="#6b6b6b" font-size="12" letter-spacing="2">HOW I BUILD</text>
 
   <path class="flow" d="M170 88h56M396 88h56M594 88h56" stroke="#4a4a4a" stroke-width="2"/>
-  <circle class="pkt" cx="104" cy="88" r="4" fill="#f2f2f2"/>
+  <circle class="pkt" cx="104" cy="88" r="4" fill="#FFD400"/>
 
   <g class="in n1">
     <rect x="22" y="58" width="148" height="60" rx="8" fill="#000" stroke="#262626"/>
@@ -25,8 +25,8 @@
     <text class="sans" x="40" y="104" fill="#f2f2f2" font-size="15" font-weight="600">Prompt &amp; spec</text>
   </g>
   <g class="in n2">
-    <rect x="226" y="50" width="170" height="76" rx="8" fill="#000" stroke="#8a8a8a"/>
-    <text class="mono" x="244" y="76" fill="#f2f2f2" font-size="12">02 · agents</text>
+    <rect x="226" y="50" width="170" height="76" rx="8" fill="#000" stroke="#FFD400"/>
+    <text class="mono" x="244" y="76" fill="#FFD400" font-size="12">02 · agents</text>
     <text class="sans" x="244" y="96" fill="#f2f2f2" font-size="15" font-weight="600">Claude Code</text>
     <text class="sans" x="244" y="115" fill="#f2f2f2" font-size="15" font-weight="600">Codex</text>
   </g>
