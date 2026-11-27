@@ -13,13 +13,7 @@
 
 <br />
 
-I build local software, automation tools, and applications for AI workflows. My public projects include desktop apps, MCP integrations, and developer tools.
-
-I no longer type code by hand. I work through agent harnesses, Claude Code and Codex, to move fast. I use Claude Code heavily, mostly with Anthropic's Opus, Fable and Sonnet models. I write the specs; the agents write the code.
-
-As a beginner data analyst, I also build weird things in Power BI and Excel with custom graphical interfaces. With Claude Code, I have already turned an Excel workbook into a playable game. If an idea sounds a bit crazy, I still try it.
-
-**Open to work:** I am looking for a 24-month work-study position (alternance) in Île-de-France, as a data analyst or in other data roles. Reach me at <a href="mailto:pro@chykizona.eu">pro@chykizona.eu</a> or <a href="mailto:contact@inerthel.com">contact@inerthel.com</a>.
+I made a playable game in Excel. I like opening a program I know well and wondering what else I can make it do.
 
 <br />
 
